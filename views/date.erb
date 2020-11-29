@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<body>
+    <p>
+        <% d = Date.today %>
+        <% weekday = Date::DAYNAMES[d.wday]%>
+        <% month = Date::MONTHNAMES[d.mon]%>
+        <%= "The date is #{weekday}, #{month} #{d.mday}, #{d.year}."%>
+    </p>
+</body>
+</html> 
